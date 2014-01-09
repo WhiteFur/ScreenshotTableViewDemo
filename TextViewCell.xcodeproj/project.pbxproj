@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980FFE18187E4E07006E6679 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 980FFE17187E4E07006E6679 /* MyTableViewCell.m */; };
 		988EBBE2187E3718006F6266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988EBBE1187E3718006F6266 /* UIKit.framework */; };
 		988EBBE4187E3718006F6266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988EBBE3187E3718006F6266 /* Foundation.framework */; };
 		988EBBE6187E3718006F6266 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988EBBE5187E3718006F6266 /* CoreGraphics.framework */; };
@@ -17,10 +18,12 @@
 		988EBBF6187E3718006F6266 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 988EBBF5187E3718006F6266 /* Default@2x.png */; };
 		988EBBF8187E3718006F6266 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 988EBBF7187E3718006F6266 /* Default-568h@2x.png */; };
 		988EBBFB187E3718006F6266 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988EBBF9187E3718006F6266 /* MainStoryboard.storyboard */; };
-		988EBBFE187E3718006F6266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988EBBFD187E3718006F6266 /* ViewController.m */; };
+		988EBC06187E37DC006F6266 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988EBC05187E37DC006F6266 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		980FFE16187E4E07006E6679 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		980FFE17187E4E07006E6679 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		988EBBDE187E3718006F6266 /* TextViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		988EBBE1187E3718006F6266 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		988EBBE3187E3718006F6266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +38,8 @@
 		988EBBF5187E3718006F6266 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		988EBBF7187E3718006F6266 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		988EBBFA187E3718006F6266 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		988EBBFC187E3718006F6266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		988EBBFD187E3718006F6266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		988EBC04187E37DC006F6266 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		988EBC05187E37DC006F6266 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +89,11 @@
 				988EBBF0187E3718006F6266 /* AppDelegate.h */,
 				988EBBF1187E3718006F6266 /* AppDelegate.m */,
 				988EBBF9187E3718006F6266 /* MainStoryboard.storyboard */,
-				988EBBFC187E3718006F6266 /* ViewController.h */,
-				988EBBFD187E3718006F6266 /* ViewController.m */,
 				988EBBE8187E3718006F6266 /* Supporting Files */,
+				988EBC04187E37DC006F6266 /* MyTableViewController.h */,
+				988EBC05187E37DC006F6266 /* MyTableViewController.m */,
+				980FFE16187E4E07006E6679 /* MyTableViewCell.h */,
+				980FFE17187E4E07006E6679 /* MyTableViewCell.m */,
 			);
 			path = TextViewCell;
 			sourceTree = "<group>";
@@ -175,7 +180,8 @@
 			files = (
 				988EBBEE187E3718006F6266 /* main.m in Sources */,
 				988EBBF2187E3718006F6266 /* AppDelegate.m in Sources */,
-				988EBBFE187E3718006F6266 /* ViewController.m in Sources */,
+				988EBC06187E37DC006F6266 /* MyTableViewController.m in Sources */,
+				980FFE18187E4E07006E6679 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				988EBC03187E3718006F6266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
